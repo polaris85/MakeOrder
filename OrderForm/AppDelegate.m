@@ -19,8 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     //Keyboard Setup
-    IQKeyboardManager *sharedInstance = [IQKeyboardManager sharedManager];
-    sharedInstance.shouldResignOnTouchOutside = YES;
+    //IQKeyboardManager *sharedInstance = [IQKeyboardManager sharedManager];
+    //sharedInstance.enable = YES;
+    //sharedInstance.shouldResignOnTouchOutside = YES;
     
     return YES;
 }
